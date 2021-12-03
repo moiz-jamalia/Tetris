@@ -1,6 +1,7 @@
 package application;
 
 import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -18,7 +19,11 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Tetris extends Application {
-	// The variables
+	/**
+	 * Variables
+	 * Sizes of Blocks and Mesh/Playarea
+	 * and Score
+	 */
 	public static final int MOVE = 25;
 	public static final int SIZE = 25;
 	public static int XMAX = SIZE * 12;

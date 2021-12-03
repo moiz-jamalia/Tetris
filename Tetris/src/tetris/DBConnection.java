@@ -10,9 +10,9 @@ public class DBConnection {
 	static Statement stmt = null;
 	static Statement stmt1 = null;
 	static Statement stmt2 = null;
-	static String jdbcURL = "jdbc:mariadb://10.10.240.125:3307/Tetris";
-	static String username = "Tetris";
-	static String password = "dfalkJE346sda!";
+	static String jdbcURL = "jdbc:mariadb://10.10.240.125:3306/Tetris";
+	static String username = "Admin";
+	static String password = "Cfeep3en*d";
 
 	public static void ConnectionDatabase() throws Exception {
 		try {
@@ -22,9 +22,6 @@ public class DBConnection {
 			System.out.println("Connection to the Database failed");
 			System.out.println(e);
 		}
-	}
-	
-	public sttaattiicc 
-	
+	}	
 	
 }
