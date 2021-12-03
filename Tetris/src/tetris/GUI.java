@@ -59,6 +59,10 @@ public class GUI extends JFrame {
 		btnPause.setBounds(324, 159, 89, 23);
 		contentPane.add(btnPause);
 		
+		
+		
+		
+		
 		//ActionListener
 		btnQuit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
